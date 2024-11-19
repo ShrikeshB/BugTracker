@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 6em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2em;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+nav ul li {
+  cursor: pointer;
+}
+nav ul li:first-child {
+  margin-right: 2em;
+}
+
+main .tester, main .lead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .tester form, main .lead form {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  padding: 2em;
+  margin-bottom: 2em;
+}
+main .tester form h1, main .lead form h1 {
+  margin-bottom: 1em;
+}
+main .tester form input,
+main .tester form textarea,
+main .tester form select, main .lead form input,
+main .lead form textarea,
+main .lead form select {
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.6em;
+}
+main .tester form label, main .lead form label {
+  width: 100%;
+}
+main .tester form button, main .lead form button {
+  padding: 0.9em 2em;
+  background: rgb(0, 225, 255);
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}/*# sourceMappingURL=app.component.css.map */
